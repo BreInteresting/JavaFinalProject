@@ -1,4 +1,8 @@
-/* styles.css */
+/* Description: styles file for the buy, sell, and main page
+   Author: Brianna Manning
+   Date: 10.11.24
+   Program Name: styles.css 
+*/
 
 /* Styling for the buy page */
 .buy-page {
@@ -12,6 +16,14 @@
 .sell-page {
     -fx-background-color: #e0e0e0; /* Lighter gray background color */
     -fx-background-image: url('sell_page_background.jpg'); /* Background image for the sell page */
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+/* Styling for the button area */
+.button-area {
+    -fx-background-color: transparent; /* Transparent background color */
+    -fx-background-image: url('button_area_background.jpg'); /* Background image for the button area */
     -fx-background-size: cover;
     -fx-background-position: center;
 }
