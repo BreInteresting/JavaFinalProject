@@ -1,4 +1,17 @@
 {
+    "metadata": {
+        "Description": "The inventory sheet for the main program to pull from",
+        "Author": "Brianna Manning",
+        "Date": "10.11.24",
+        "Program Name": "itemInventory.css"
+    },
+    "data": {
+        "key1": "value1",
+        "key2": "value2"
+    }
+}
+
+{
   "items": [
     {
       "type": "Armor",
