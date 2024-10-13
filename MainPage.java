@@ -1,3 +1,9 @@
+/* Description:the program is foe a item shop based out of dungon and dragons 5e. it will make a shop and aloock the user to buy/ bell itsm. the buy page will allow the user to see 3 random items with al lthe stats for the items as wel as price. the sell page is made so that the user can work witht he shops funds and allow the shop to buy form the users their items and give ethe total of the shops funds after the transaction. the main page is for the usere to choose which fuction they want to go to first. 
+   Author: Brianna Manning
+   Date: 10.11.24
+   Program Name: MainPage.java
+*/
+
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
@@ -24,7 +30,7 @@ public class DnDItemApp extends Application {
     private VBox sellPage;
 
     @Override
-    public void start(Stage primaryStage) {
+    public void start(Stage primaryStage) { // main page that opens at start of application
         primaryStage.setTitle("D&D Item Shop");
 
         buyPage = createBuyPage();
@@ -49,7 +55,7 @@ public class DnDItemApp extends Application {
         primaryStage.show();
     }
 
-    private VBox createBuyPage() {
+    private VBox createBuyPage() { // buy page the shop will show 3 items at random from the item inventory sheet 
         VBox buyPage = new VBox(10);
         buyPage.setPadding(new Insets(10));
 
@@ -96,7 +102,7 @@ public class DnDItemApp extends Application {
         return buyPage;
     }
 
-    private VBox createSellPage() {
+    private VBox createSellPage() { //creates a sell page for the user to see the shop's funds and allow the user to sell the items to the shop and do a simple =/- transaction to find the shop total funds after the transaction is complete.
         double shopFunds = 1000.0;
 
         VBox sellPage = new VBox(10);
