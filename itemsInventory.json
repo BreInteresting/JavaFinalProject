@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "type": "Armor",
+      "name": "Plate Armor",
+      "description": "Heavy protective armor made of interlocking metal plates.",
+      "price": "500gp",
+      "rarity": "Rare",
+      "stats": "AC 18"
+    },
+    {
+      "type": "Armor",
+      "name": "Leather Armor",
+      "description": "Light and flexible armor made from tanned leather.",
+      "price": "25gp",
+      "rarity": "Common",
+      "stats": "AC 11 + Dex modifier"
+    },
+    {
+      "type": "Armor",
+      "name": "Chain Shirt",
+      "description": "A simple but effective shirt made of interlocking metal rings.",
+      "price": "50gp",
+      "rarity": "Uncommon",
+      "stats": "AC 13 + Dex modifier"
+    },
+    {
+      "type": "Weapon",
+      "name": "Longbow",
+      "description": "A powerful ranged weapon made from a flexible curved wood or metal rod.",
+      "price": "50gp",
+      "rarity": "Uncommon",
+      "stats": "+1d8 piercing damage"
+    },
+    {
+      "type": "Weapon",
+      "name": "Dagger",
+      "description": "A versatile and easily concealable melee weapon.",
+      "price": "2gp",
+      "rarity": "Common",
+      "stats": "+1d4 piercing damage"
+    },
+    {
+      "type": "Weapon",
+      "name": "Greatsword",
+      "description": "A massive two-handed sword capable of dealing devastating blows.",
+      "price": "50gp",
+      "rarity": "Rare",
+      "stats": "+2d6 slashing damage"
+    },
+    {
+      "type": "Potion",
+      "name": "Potion of Invisibility",
+      "description": "Grants the drinker the ability to become invisible for a limited time.",
+      "price": "150gp",
+      "rarity": "Rare",
+      "stats": "Grants invisibility for 1 hour"
+    },
+    {
+      "type": "Potion",
+      "name": "Potion of Healing",
+      "description": "Restores a small amount of hit points when consumed.",
+      "price": "50gp",
+      "rarity": "Common",
+      "stats": "Restores 2d4+2 hit points"
+    },
+    {
+      "type": "Potion",
+      "name": "Potion of Strength",
+      "description": "Temporarily enhances the drinker's physical strength.",
+      "price": "75gp",
+      "rarity": "Uncommon",
+      "stats": "Grants +2 Strength for 1 hour"
+    },
+    {
+      "type": "Magic Item",
+      "name": "Cloak of Elvenkind",
+      "description": "A magical cloak that grants the wearer the ability to blend into their surroundings.",
+      "price": "250gp",
+      "rarity": "Rare",
+      "stats": "Grants advantage on Dexterity (Stealth) checks"
+    },
+    {
+      "type": "Magic Item",
+      "name": "Ring of Protection",
+      "description": "A magical ring that enhances the wearer's defenses.",
+      "price": "200gp",
+      "rarity": "Rare",
+      "stats": "Grants +1 bonus to AC and saving throws"
+    },
+    {
+      "type": "Magic Item",
+      "name": "Wand of Magic Missiles",
+      "description": "A wand that can shoot magical missiles at targets.",
+      "price": "150gp",
+      "rarity": "Uncommon",
+      "stats": "Can cast Magic Missile spell"
+    }
+  ]
+}

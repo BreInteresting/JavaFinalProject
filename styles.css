@@ -1,0 +1,17 @@
+/* styles.css */
+
+/* Styling for the buy page */
+.buy-page {
+    -fx-background-color: #f0f0f0; /* Light gray background color */
+    -fx-background-image: url('buy_page_background.jpg'); /* Background image for the buy page */
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+/* Styling for the sell page */
+.sell-page {
+    -fx-background-color: #e0e0e0; /* Lighter gray background color */
+    -fx-background-image: url('sell_page_background.jpg'); /* Background image for the sell page */
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
